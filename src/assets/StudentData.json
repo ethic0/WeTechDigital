@@ -1,0 +1,41 @@
+[{
+    "id":1,
+    "name":"Ankit",
+    "totalMarks":194
+},
+{
+    "id":2,
+    "name":"Akash",
+    "totalMarks":353
+},
+{
+    "id":3,
+    "name":"Raj",
+    "totalMarks":269
+},
+{
+    "id":4,
+    "name":"Amit",
+    "totalMarks":345
+},
+{
+    "id":5,
+    "name":"Sharad",
+    "totalMarks":234
+},
+{
+    "id":6,
+    "name":"random data",
+    "totalMarks":245
+},
+{
+    "id":7,
+    "name":"random data 2",
+    "totalMarks":225
+},
+{
+    "id":8,
+    "name":"random data 3",
+    "totalMarks":224
+}
+]

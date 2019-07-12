@@ -1,0 +1,34 @@
+<header>
+  <nav class="navbar navbar-default">
+    <a class="navbar-brand" href="#">WeTech Digital</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="row">
+    <nav class="navbar">
+      <input class="form-control" type="text" name="search" [(ngModel)]="filter">      
+    </nav>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th (click)="sort('name')">Name
+            <span class="glyphicon sort-icon" *ngIf="key =='name'" [ngClass]="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+          </th>
+          <th (click)="sort('totalMarks')">Marks
+            <span class="glyphicon sort-icon" *ngIf="key =='marks'" [ngClass]="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of Data | orderBy: key : reverse | filter:filter; let i = index">
+          <td>{{i}}</td>
+          <td>{{data.name}}</td>
+          <td>{{data.totalMarks}}</td>
+        </tr>
+      </tbody>
+      
+    </table>
+  </div>
+</div>
