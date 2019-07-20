@@ -1,6 +1,7 @@
 # WeTech
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+This is a small web application to demonstrate UI representation of Data from backend. It takes data from a dummy JSON file and displays the content in a tabular form with searching and sorting of the data.
 
 ## Development server
 
